@@ -41,12 +41,18 @@
             id="personal-account"
             type="radio"
             name="account-type"
+            class="inline"
             checked
           />
           Personal</label
         >
         <label for="business-account"
-          ><input id="business-account" type="radio" name="account-type" />
+          ><input
+            id="business-account"
+            type="radio"
+            name="account-type"
+            class="inline"
+          />
           Business</label
         >
       </fieldset>
@@ -85,12 +91,13 @@
 
       <!-- Term and conditions check -->
       <label for="terms-and-conditions">
-        <input id="terms-and-conditions" type="checkbox" required /> I accept
+        <input class="inline" id="terms-and-conditions" type="checkbox" required /> I accept
         the
         <a href="https://www.freecodecamp.org/news/terms-of-service/"
           >terms and conditions</a
         >
       </label>
+      <input type="submit" value="Submit" />
     </form>
   </body>
 </html>
