@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <!-- Title and description -->
+    <h1 id="title">Survey Form</h1>
+    <p id="description">
+      Please fill this survey with the required information.
+    </p>
+
+    <!-- Form starts here -->
+    <form id="survey-form">
+      <!-- Personal information fieldset -->
+      <fieldset>
+        <label id="name-label" for="name"
+          >Name
+          <input id="name" type="text" placeholder="Enter your name" required />
+        </label>
+        <label id="email-label" for="email"
+          >Email
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+            required
+          />
+        </label>
+        <label id="number-label" for="number"
+          >Age
+          <input
+            id="number"
+            type="number"
+            min="13"
+            max="120"
+            placeholder="Enter your age"
+          />
+        </label>
+      </fieldset>
+
+      <!-- Frameworks fieldset -->
+      <fieldset>
+        <label
+          >Select your favourite front-end JavaScript framework:
+          <select id="dropdown">
+            <option value="0">(select one)</option>
+            <option value="1">React</option>
+            <option value="2">Angular</option>
+            <option value="3">Vue</option>
+          </select>
+        </label>
+        <label>
+          Have you worked with the framework selected?
+          <label></label>
+            <input
+              id="confirm"
+              class="inline"
+              name="confirmation"
+              type="radio"
+              value="1"
+              checked
+            />Yes</label
+          >
+          <label>
+            <input
+              id="deny"
+              class="inline"
+              name="confirmation"
+              type="radio"
+              value="2"
+            />No</label
+          >
+        </label>
+        <label>
+          Have you worked with any of these technologies?
+          <label
+            ><input type="checkbox" class="inline" value="node"
+          /> NodeJs</label>
+          <label
+            ><input type="checkbox" class="inline" value="redux"
+          /> Redux</label>
+          <label
+            ><input type="checkbox" class="inline" value="next"
+          /> NextJs</label>
+        </label>
+      </fieldset>
+
+      <!-- Aditional information fieldset -->
+      <fieldset>
+        <label
+          >Do you have any additional comments?:
+          <textarea
+            id="comments"
+            name="comments"
+            placeholder="Enter any comments you have"
+          ></textarea>
+        </label>
+      </fieldset>
+
+      <!-- Submit button -->
+      <input id="submit" class="inline" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
