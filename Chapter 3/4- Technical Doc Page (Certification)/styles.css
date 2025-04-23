@@ -12,7 +12,6 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1rem 2rem;
   position: sticky;
   width: 100%;
   top: 0;
@@ -39,13 +38,15 @@ html {
   color: #c1bdb3;
 }
 
-
+#documentation {
+  background-color: gray;
+}
 
 .main-section {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 4rem 2rem;
-  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
