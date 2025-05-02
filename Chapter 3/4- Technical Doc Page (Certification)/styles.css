@@ -71,6 +71,13 @@ main {
   margin-bottom: 2rem;
 }
 
+.main-section header {
+  color: #baffdf;
+}
+
+.main-section p {
+  color: #c1bdb3;
+}
 
 .main-section header {
   font-size: 1.8rem;
