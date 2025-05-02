@@ -40,6 +40,10 @@ main {
   margin-bottom: 1rem;
 }
 
+#navbar hr {
+  width: 100%;
+}
+
 #navbar a {
   color: #baffdf;
   text-decoration: none;
@@ -105,6 +109,10 @@ main {
   }
 
   #navbar header {
+    display: none;
+  }
+
+  #navbar hr {
     display: none;
   }
 
