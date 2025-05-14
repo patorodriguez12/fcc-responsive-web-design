@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+    background-color: #183B4E;
+    display: flex;
+    height: 150px;
+}
