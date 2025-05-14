@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #3a0519;
+  --secondary-color: #670d2f;
+  --tertiary-color: #a53860;
+  --quaternary-color: #ef88ad;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +12,28 @@
 }
 
 #navbar {
-    background-color: #3A0519;
-    display: flex;
-    height: 150px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  color: #fff;
+}
+
+#navbar header {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: larger;
+}
+
+#navbar .nav-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+#navbar .nav-link:hover {
+  color: var(--quaternary-color);
+  transform: scale(1.05);
 }
