@@ -11,6 +11,8 @@
   box-sizing: border-box;
 }
 
+/* NAVBAR  */
+
 #navbar {
   background-color: var(--primary-color);
   display: flex;
@@ -37,3 +39,6 @@
   color: var(--quaternary-color);
   transform: scale(1.05);
 }
+
+
+/* MAIN SECTION  */
