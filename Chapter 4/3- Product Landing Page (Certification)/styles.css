@@ -1,5 +1,22 @@
-#header-img {
-  width: 200px;
-  height: auto;
-  display: block;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightblue;
+  align-items: center;
+}
+
+header #header-img {
+  width: 128px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
 }
