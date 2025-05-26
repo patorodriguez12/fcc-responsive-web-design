@@ -70,6 +70,7 @@ main {
 
 #form button {
   background-color: var(--color-5);
+  opacity: 80%;
   color: var(--color-3);
   font-size: 25px;
   padding: 1rem;
@@ -77,6 +78,12 @@ main {
   cursor: pointer;
   font-weight: bold;
   border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+#form button:hover {
+  background-color: var(--color-4);
+  opacity: 100%;
 }
 
 #email {
@@ -114,7 +121,7 @@ main {
   color: var(--color-2);
 }
 
-/* MEDIA QUERYS  */
+/* MEDIA QUERIES  */
 
 @media (max-width: 768px) {
   header {
