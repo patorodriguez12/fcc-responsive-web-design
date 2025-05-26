@@ -64,7 +64,19 @@ main {
 }
 
 #form h2 {
-  color: #f9f9f9f9;
+  color: var(--color-2);
+  padding: 1rem;
+}
+
+#form button {
+  background-color: var(--color-5);
+  color: var(--color-3);
+  font-size: 25px;
+  padding: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 8px;
 }
 
 #email {
@@ -74,14 +86,32 @@ main {
   width: 100%;
 }
 
-section #features p  {
+#features {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
-
-section #features p i {
+#features i {
+  font-size: 50px;
   color: var(--color-5);
+}
+
+#features .features-div {
+  display: flex;
+  width: 600px;
+  padding: 1rem;
+  gap: 4rem;
+}
+
+#features .features-div h3 {
+  color: #f9f9f9f9;
+  font-size: 24px;
+}
+
+#features .features-div p {
+  color: var(--color-2);
 }
 
 /* MEDIA QUERYS  */
@@ -101,5 +131,9 @@ section #features p i {
 
   main {
     padding-top: 10rem;
+  }
+
+  #features .features-div {
+    width: 350px;
   }
 }
