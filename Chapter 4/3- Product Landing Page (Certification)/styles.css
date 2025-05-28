@@ -40,6 +40,7 @@ header #nav-bar .nav-link {
   text-decoration: none;
   font-weight: bold;
   color: var(--color-1);
+  transition: all 0.3s ease;
 }
 
 header #nav-bar .nav-link:hover {
@@ -106,6 +107,7 @@ main {
 }
 
 #features .features-div {
+  margin: 1rem 0 1rem 0;
   display: flex;
   width: 600px;
   padding: 1rem;
