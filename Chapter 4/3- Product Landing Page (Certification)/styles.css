@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -94,6 +95,8 @@ main {
   width: 100%;
 }
 
+/* FEATURES SECTION  */
+
 #features {
   display: flex;
   flex-direction: column;
@@ -122,6 +125,8 @@ main {
 #features .features-div p {
   color: var(--color-2);
 }
+
+/* PRICING SECTION */
 
 /* MEDIA QUERIES  */
 
