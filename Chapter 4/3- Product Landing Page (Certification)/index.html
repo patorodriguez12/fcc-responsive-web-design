@@ -16,7 +16,7 @@
       <img src="./logo.png" alt="gym logo img" id="header-img" />
       <nav id="nav-bar">
         <a href="#features" class="nav-link">Features</a>
-        <a href="#" class="nav-link">Pricing</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
         <a href="#" class="nav-link">About</a>
       </nav>
     </header>
@@ -24,15 +24,16 @@
     <!-- MAIN CONTENT -->
     <main>
       <!-- FORM  -->
-      <form id="form">
-        <h2>The new you starts here</h2>
+      <form id="form" action="#">
+        <h2>THE NEW YOU STARTS HERE</h2>
+        <p>Enter your email for more information</p>
         <input
           id="email"
           type="email"
-          placeholder="Enter your email"
+          placeholder="example@mail.com"
           required
         />
-        <button type="submit">SUBSCRIBE</button>
+        <button type="submit" aria-label="Submit your email">SUBMIT</button>
       </form>
 
       <!-- FEATURES SECTION -->
@@ -67,34 +68,51 @@
       </section>
 
       <!-- PROMO VIDEO  -->
-      <iframe
-        id="video"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/oE0czTumunI?si=t9qW5ihn0AjDxHC-"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
+      <div class="video-container">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/oE0czTumunI?si=t9qW5ihn0AjDxHC-"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
 
       <!-- PRICING SECTION -->
       <section id="pricing">
         <div class="pricing-card">
-          <h3>BASIC</h3>
-          <h4>$64</h4>
-          <p>Lorem ipsum. <br />Lorem ipsum. <br />Lorem ipsum.</p>
+          <h3 class="card-title">TRAINERS</h3>
+          <h4 class="price">$64</h4>
+          <ul class="features-list">
+            <li>Access to must machines</li>
+            <li>Once a week</li>
+            <li>Limited time</li>
+          </ul>
+          <button class="card-btn">Choose</button>
+        </div>
+        <div class="pricing-card highlighted">
+          <h3 class="card-title">WINNERS</h3>
+          <h4 class="price">$75</h4>
+          <ul class="features-list">
+            <li>Full access to machines</li>
+            <li>3 times a week</li>
+            <li>Unlimited time</li>
+          </ul>
+          <button class="card-btn">Choose</button>
         </div>
         <div class="pricing-card">
-          <h3>WINNER</h3>
-          <h4>$75</h4>
-          <p>Lorem ipsum. <br />Lorem ipsum. <br />Lorem ipsum.</p>
-        </div>
-        <div class="pricing-card">
-          <h3>CHAMPIONS</h3>
-          <h4>$90</h4>
-          <p>Lorem ipsum. <br />Lorem ipsum. <br />Lorem ipsum.</p>
+          <h3 class="card-title">CHAMPIONS</h3>
+          <h4 class="price">$90</h4>
+          <ul class="features-list">
+            <li>Full access to machines</li>
+            <li>Unlimited time</li>
+            <li>Personal trainer</li>
+          </ul>
+          <button class="card-btn">Choose</button>
         </div>
       </section>
     </main>
