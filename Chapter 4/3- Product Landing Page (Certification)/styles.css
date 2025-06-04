@@ -143,6 +143,12 @@ main {
   color: var(--color-2);
 }
 
+hr {
+  color: var(--color-2);
+  width: 1200px;
+  margin: 2rem;
+}
+
 /* VIDEO SECTION  */
 .video-container {
   position: relative;
@@ -231,7 +237,6 @@ main {
 }
 
 /* MEDIA QUERIES  */
-
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -247,6 +252,10 @@ main {
 
   main {
     padding-top: 10rem;
+  }
+
+  hr {
+    width: 350px;
   }
 
   #features .features-div {
