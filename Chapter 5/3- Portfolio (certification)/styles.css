@@ -1,0 +1,27 @@
+:root {
+  --color-1: #efe4d2;
+  --color-2: #254d70;
+  --color-3: #131d4f;
+  --color-4: #954c2e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAV SECTION */
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--color-1);
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* MAIN SECTION */
+main {
+    background-color: var(--color-2);
+    height: 100vh;
+}
