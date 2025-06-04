@@ -9,19 +9,59 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
 }
 
 /* NAV SECTION */
 header {
   display: flex;
   justify-content: space-around;
-  background-color: var(--color-1);
-  text-align: center;
+  background-color: var(--color-3);
+  width: 100%;
+  color: var(--color-1);
+  align-items: center;
   padding: 20px 0;
+  position: fixed;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  color: white;
+  gap: 20px;
+  margin: 10px;
 }
 
 /* MAIN SECTION */
 main {
-    background-color: var(--color-2);
-    height: 100vh;
+  background-color: var(--color-2);
+}
+
+/* WELCOME SECTION */
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+#welcome-section h1 {
+  color: var(--color-1);
+  font-size: 4rem;
+}
+
+#welcome-section h1 a {
+  text-decoration: none;
+  color: var(--color-3);
+  transition: all 0.3s ease;
+}
+
+#welcome-section h1 a:hover {
+  color: var(--color-4);
+}
+
+#welcome-section p {
+  color: var(--color-1);
 }
