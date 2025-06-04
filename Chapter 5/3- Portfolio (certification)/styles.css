@@ -10,6 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* NAV SECTION */
@@ -64,4 +65,6 @@ main {
 
 #welcome-section p {
   color: var(--color-1);
+  font-size: 1rem;
+  letter-spacing: 2px;
 }
