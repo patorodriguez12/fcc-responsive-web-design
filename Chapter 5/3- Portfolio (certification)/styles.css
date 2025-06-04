@@ -13,6 +13,10 @@
   scroll-behavior: smooth;
 }
 
+section {
+  display: block;
+}
+
 /* NAV SECTION */
 header {
   display: flex;
@@ -44,7 +48,7 @@ header ul a {
 }
 
 header ul a:hover {
-  color: var(--color-4)
+  color: var(--color-4);
 }
 
 /* MAIN SECTION */
@@ -84,3 +88,38 @@ main {
 }
 
 /* PROJECTS SECTION */
+#projects {
+  background-color: var(--color-1);
+  text-align: center;
+  padding: 10rem 2rem;
+}
+
+#projects h2 {
+  color: var(--color-3);
+  max-width: 640px;
+  margin: 0 auto 4rem auto;
+}
+
+#tiles-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+#tiles-container .image-sim {
+  text-align: center;
+  height: 220px;
+  width: 100%;
+  background-color: var(--color-4);
+}
+
+#tiles-container p {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+  background-color: var(--color-3);
+  color: var(--color-1);
+}
