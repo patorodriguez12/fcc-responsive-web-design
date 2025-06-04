@@ -17,26 +17,30 @@
       <nav id="nav-bar">
         <a href="#features" class="nav-link">Features</a>
         <a href="#pricing" class="nav-link">Pricing</a>
-        <a href="#" class="nav-link">About</a>
+        <a href="#form" class="nav-link">Subscribe</a>
       </nav>
     </header>
 
     <!-- MAIN CONTENT -->
     <main>
       <!-- FORM  -->
-      <form id="form" action="#">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
         <h2>THE NEW YOU STARTS HERE</h2>
         <p>Enter your email for more information</p>
         <input
           id="email"
           type="email"
+          name="email"
           placeholder="example@mail.com"
           required
         />
-        <button type="submit" aria-label="Submit your email">SUBMIT</button>
+        <input
+        id="submit"
+        type="submit"
+        />
       </form>
 
-      <hr>
+      <hr />
 
       <!-- FEATURES SECTION -->
       <section id="features">
@@ -69,7 +73,7 @@
         </div>
       </section>
 
-      <hr>
+      <hr />
 
       <!-- PROMO VIDEO  -->
       <div class="video-container">
@@ -118,6 +122,18 @@
           </ul>
           <button class="card-btn">Choose</button>
         </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          At IronCore Gym, we believe fitness is more than a goal—it's a
+          lifestyle. Whether you're here to build strength, improve endurance,
+          or find balance, our modern facilities, expert trainers, and
+          motivating community will help you become the best version of
+          yourself.
+        </p>
       </section>
     </main>
   </body>
