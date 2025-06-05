@@ -165,3 +165,33 @@ main {
 #contact a:hover {
   color: var(--color-4)
 }
+
+/* FOOTER SECTION */
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-4);
+  height: 120px;
+}
+
+#footer p {
+  color: var(--color-3);
+}
+
+#footer h3 {
+  color: var(--color-1);
+}
+
+#footer h3 a {
+  text-decoration: none;
+  color: var(--color-3);
+  transition: all 0.3s ease;
+  background-color: var(--color-4);
+}
+
+#footer h3 a:hover {
+  color: var(--color-4);
+  background-color: var(--color-3);
+}
