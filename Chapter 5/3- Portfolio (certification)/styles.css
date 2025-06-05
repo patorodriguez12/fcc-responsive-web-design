@@ -127,3 +127,28 @@ main {
 #tiles-container a {
   text-decoration: none;
 }
+
+/* CONTACT SECTION */
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+#contact h2 {
+  font-size: 3rem;
+  color: var(--color-1);
+  padding-bottom: 2rem;
+}
+
+#contact .social {
+  display: flex;  
+  justify-content: space-between;
+}
+
+#contact a {
+  text-decoration: none;
+  color: var(--color-4);
+}
