@@ -1,0 +1,77 @@
+:root {
+  --primary-color: #3a0519;
+  --secondary-color: #670d2f;
+  --tertiary-color: #a53860;
+  --quaternary-color: #ef88ad;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR  */
+
+#navbar {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  color: #fff;
+}
+
+#navbar header {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+#navbar .nav-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+#navbar .nav-link:hover {
+  color: var(--quaternary-color);
+  transform: scale(1.05);
+}
+
+/* MAIN SECTION  */
+#main-doc {
+  background-color: var(--secondary-color);
+  color: var(--quaternary-color);
+  font-family: sans-serif;
+}
+
+#main-doc hr {
+  max-width: 1200px;
+  margin: auto;
+  color: var(--secondary-color);
+}
+
+.main-section {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  max-width: 1200px;
+}
+
+.main-section header {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 2rem;
+}
+
+@media (max-width: 768) {
+  nav {
+    display: none;
+  }
+}

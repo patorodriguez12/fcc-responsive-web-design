@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+  </head>
+  <body>
+    <!-- NAV BAR  -->
+    <header id="header">
+      <img src="./logo.png" alt="gym logo img" id="header-img" />
+      <nav id="nav-bar">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#form" class="nav-link">Subscribe</a>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- FORM  -->
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h2>THE NEW YOU STARTS HERE</h2>
+        <p>Enter your email for more information</p>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="example@mail.com"
+          required
+        />
+        <input
+        id="submit"
+        type="submit"
+        />
+      </form>
+
+      <hr />
+
+      <!-- FEATURES SECTION -->
+      <section id="features">
+        <div class="features-div">
+          <i class="fas fa-swimming-pool"></i>
+          <div>
+            <h3>Swimming pool</h3>
+            <p>
+              This is a description about this service, will complete this later
+            </p>
+          </div>
+        </div>
+        <div class="features-div">
+          <i class="fas fa-dumbbell"></i>
+          <div>
+            <h3>Traditional gym</h3>
+            <p>
+              This is a description about this service, will complete this later
+            </p>
+          </div>
+        </div>
+        <div class="features-div">
+          <i class="fas fa-cloud-sun"></i>
+          <div>
+            <h3>Outdoor workout</h3>
+            <p>
+              This is a description about this service, will complete this later
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <!-- PROMO VIDEO  -->
+      <div class="video-container">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/oE0czTumunI?si=t9qW5ihn0AjDxHC-"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <!-- PRICING SECTION -->
+      <section id="pricing">
+        <div class="pricing-card">
+          <h3 class="card-title">TRAINERS</h3>
+          <h4 class="price">$64</h4>
+          <ul class="features-list">
+            <li>Access to must machines</li>
+            <li>Once a week</li>
+            <li>Limited time</li>
+          </ul>
+          <button class="card-btn">Choose</button>
+        </div>
+        <div class="pricing-card highlighted">
+          <h3 class="card-title">WINNERS</h3>
+          <h4 class="price">$75</h4>
+          <ul class="features-list">
+            <li>Full access to machines</li>
+            <li>3 times a week</li>
+            <li>Unlimited time</li>
+          </ul>
+          <button class="card-btn">Choose</button>
+        </div>
+        <div class="pricing-card">
+          <h3 class="card-title">CHAMPIONS</h3>
+          <h4 class="price">$90</h4>
+          <ul class="features-list">
+            <li>Full access to machines</li>
+            <li>Unlimited time</li>
+            <li>Personal trainer</li>
+          </ul>
+          <button class="card-btn">Choose</button>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          At IronCore Gym, we believe fitness is more than a goal—it's a
+          lifestyle. Whether you're here to build strength, improve endurance,
+          or find balance, our modern facilities, expert trainers, and
+          motivating community will help you become the best version of
+          yourself.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
