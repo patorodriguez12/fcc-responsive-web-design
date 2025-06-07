@@ -1,8 +1,6 @@
-import React from 'react'
-
 export default function Home() {
   return (
-    <div>
+    <div class="flex justify-center h-[100vh] items-center">
       <ul>
         <li><a href="/chapters/1">Chapter 1</a></li>
         <li><a href="/chapters/2">Chapter 2</a></li>
