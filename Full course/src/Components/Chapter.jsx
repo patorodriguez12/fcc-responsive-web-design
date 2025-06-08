@@ -4,7 +4,7 @@ import { useParams, Link } from "react-router";
 export default function Chapter() {
   const { chapterId } = useParams();
   const chapter = chapters.find((c) => c.id === chapterId);
-
+  console.log(chapter)
   if (!chapter) return <p>Chapter not found</p>;
 
   return (
