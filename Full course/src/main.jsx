@@ -15,11 +15,11 @@ createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="chapters/1" element={<Chapter1 />} />
-        <Route path="chapters/2" element={<Chapter2 />} />
-        <Route path="chapters/3" element={<Chapter3 />} />
-        <Route path="chapters/4" element={<Chapter4 />} />
-        <Route path="chapters/5" element={<Chapter5 />} />
+        <Route path="/chapter/:chapterId" element={<h1>test</h1>} />
+        <Route
+          path="/chapter/:chapterId/:projectId"
+          element={<h1>test 2</h1>}
+        />
       </Routes>
     </BrowserRouter>
   </StrictMode>
