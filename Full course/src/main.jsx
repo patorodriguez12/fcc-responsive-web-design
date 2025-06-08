@@ -14,7 +14,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/chapter/:chapterId" element={<Chapter />} />
         <Route
           path="/chapter/:chapterId/:projectId"
-          element={<h1>test 2</h1>}
+          element={<ProjectViewer />}
         />
       </Routes>
     </BrowserRouter>

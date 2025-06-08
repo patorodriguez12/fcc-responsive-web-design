@@ -1,11 +1,9 @@
 body {
-  width: 100%;
-  height: 100vh;
   margin: 0;
-  background-color: #1b1b32;
-  color: #f5f6f7;
-  font-family: Tahoma;
+  background-color: #202c39;
+  font-family: sans-serif;
   font-size: 16px;
+  color: #dcdcdd;
 }
 
 h1,
@@ -25,7 +23,7 @@ form {
 fieldset {
   border: none;
   padding: 2rem 0;
-  border-bottom: 3px solid #3b3b4f;
+  border-bottom: 3px solid #283845;
 }
 
 fieldset:last-of-type {
@@ -47,9 +45,9 @@ select {
 
 input,
 textarea {
-  background-color: #0a0a23;
-  border: 1px solid #0a0a23;
-  color: #ffffff;
+  background-color: #283845;
+  border: 1px solid #283845;
+  color: #dcdcdd;
 }
 
 .inline {
@@ -64,15 +62,8 @@ input[type="submit"] {
   margin: 1em auto;
   height: 2em;
   font-size: 1.1rem;
-  background-color: #3b3b4f;
-  border-color: white;
+  background-color: #f2d492;
+  border: #f29559;
   min-width: 300px;
-}
-
-input[type="file"] {
-  padding: 1px 2px;
-}
-
-label a {
-  color: #dfdfe2;
+  color: #283845;
 }
