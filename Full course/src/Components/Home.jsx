@@ -4,7 +4,7 @@ import { chapters } from "../../data/projects";
 export default function Home() {
   console.log(chapters)
   return (
-    <div className="p-6">
+    <div className="flex flex-col items-center justify-center p-6 h-[100vh]">
       <h1 className="text-3xl font-bold mb-4">
         Responsive web design projects
       </h1>

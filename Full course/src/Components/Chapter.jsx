@@ -8,7 +8,7 @@ export default function Chapter() {
   if (!chapter) return <p>Chapter not found</p>;
 
   return (
-    <div className="p-6">
+    <div className="flex flex-col items-center justify-center h-[100vh] p-6">
       <h2 className="text-2xl font-bold mb-4">{chapter.name}</h2>
       {chapter.projects.map((proj) => (
         <Link
